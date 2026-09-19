@@ -1,0 +1,74 @@
+/* ==========================================================================
+   1. RESET & CONFIGURAÇÕES BASE
+   ========================================================================== */
+
+/* Remove margens e preenchimentos padrão e ativa o border-box */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações básicas da página */
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ==========================================================================
+   2. ELEMENTOS DE MÍDIA
+   ========================================================================== */
+
+/* Evita que imagens e vídeos quebrem o layout */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* ==========================================================================
+   3. TIPOGRAFIA & FORMULÁRIOS
+   ========================================================================== */
+
+/* Garante que elementos de texto herdem fontes do body */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Remove estilos padrão de listas (opcional, remova se preferir manter) */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Remove sublinhado padrão de links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ==========================================================================
+   4. VARIÁVEIS DO PROJETO (Pronto para usar)
+   ========================================================================== */
+:root {
+    /* Cores, fontes e espaçamentos aqui */
+}
+
+/* ==========================================================================
+   5. ESTILOS PERSONALZIADOS COMEÇAM AQUI
+   ========================================================================== */
