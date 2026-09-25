@@ -85,3 +85,18 @@ a {
 
   
 }
+
+.apresentacao_principal {
+    display: flex;
+    background-color: #04536f;
+    padding: 30px;
+    justify-content: center;
+    align-content: center;
+}
+
+.bloco_texto_principal {
+    width: 500px;
+    height: auto;
+    padding: 30px;
+}
+
