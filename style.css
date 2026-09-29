@@ -21,6 +21,7 @@ body {
     min-height: 100vh;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* ==========================================================================
@@ -72,6 +73,70 @@ a {
 /* ==========================================================================
    5. ESTILOS PERSONALZIADOS COMEÇAM AQUI
    ========================================================================== */
+
+.menu-container {
+  background-color: #3A75B0;
+  display: flex;
+  padding-top: 10px;
+}
+
+.logo-header {
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+
+.li-header a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+.li-header a:hover {
+  color: orange;
+}
+
+.apresentacao_principal {
+  display: flex;
+  background-color: #04536f;
+  justify-content: center;
+  align-content: baseline;
+  padding: 50px;
+}
+
+.bloco_texto_principal {
+  width: 500px;
+  margin-right: 40px;
+}
+
+.barra_laranja {
+  width: 35px;
+  height: 5px;
+  background-color: orange;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.titulo, .subtitulo {
+  color: white;
+}
+
+.titulo {
+  font-weight: 300;
+}
+
+.subtitulo {
+  font-weight: 400;
+  margin-top: 10px;
+}
 
 #footer {
     background: #ebebeb;
