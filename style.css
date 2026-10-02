@@ -92,6 +92,54 @@ ul {
     width: 470px;
 }
 
+.conteudo-java {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 55px 35px;
+    display: flex;
+    gap: 50px;
+}
+
+.card-java {
+    width: 50%;
+}
+
+.card-java h2 {
+    color: #333;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.card-java p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 22px;
+}
+
+.botao-java {
+    display: inline-block;
+    background-color: #e76f00;
+    color: white;
+    padding: 11px 18px;
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+.botao-java:hover {
+    background-color: #c85f00;
+}
+
+.link-card {
+    display: block;
+    color: #1769aa;
+    margin: 9px 0;
+}
+
+.link-card:hover {
+    text-decoration: underline;
+}
+
 footer {
     background-color: #eeeeee;
     padding: 24px 35px;
