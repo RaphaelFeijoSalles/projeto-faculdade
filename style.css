@@ -219,4 +219,13 @@ footer {
     .card-java h2 {
         font-size: 23px;
     }
+
+    footer {
+        padding: 22px;
+    }
+
+    #footer-links {
+        justify-content: flex-start;
+        gap: 12px 20px;
+    }
 }
