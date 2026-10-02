@@ -160,3 +160,26 @@ footer {
 #footer-links a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 800px) {
+    .menu-container {
+        justify-content: space-between;
+        padding: 10px 22px;
+    }
+
+    .menu-list {
+        display: none;
+    }
+
+    .menu-mobile {
+        width: 30px;
+        display: block;
+    }
+
+    .menu-mobile span {
+        display: block;
+        height: 3px;
+        background-color: white;
+        margin: 5px 0;
+    }
+}
