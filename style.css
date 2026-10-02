@@ -1,188 +1,114 @@
-/* ==========================================================================
-   1. RESET & CONFIGURAÇÕES BASE
-   ========================================================================== */
-
-/* Remove margens e preenchimentos padrão e ativa o border-box */
-*,
-*::before,
-*::after {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Configurações básicas da página */
-html {
-    font-size: 16px;
-    scroll-behavior: smooth;
-}
-
 body {
-    min-height: 100vh;
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
     font-family: 'Open Sans', sans-serif;
+    color: #222;
 }
 
-/* ==========================================================================
-   2. ELEMENTOS DE MÍDIA
-   ========================================================================== */
-
-/* Evita que imagens e vídeos quebrem o layout */
-img,
-picture,
-video,
-canvas,
-svg {
-    display: block;
+img {
     max-width: 100%;
-    height: auto;
+    display: block;
 }
 
-/* ==========================================================================
-   3. TIPOGRAFIA & FORMULÁRIOS
-   ========================================================================== */
-
-/* Garante que elementos de texto herdem fontes do body */
-input,
-button,
-textarea,
-select {
-    font: inherit;
-}
-
-/* Remove estilos padrão de listas (opcional, remova se preferir manter) */
-ul,
-ol {
-    list-style: none;
-}
-
-/* Remove sublinhado padrão de links */
 a {
     text-decoration: none;
     color: inherit;
 }
 
-/* ==========================================================================
-   4. VARIÁVEIS DO PROJETO (Pronto para usar)
-   ========================================================================== */
-:root {
-    /* Cores, fontes e espaçamentos aqui */
+ul {
+    list-style: none;
 }
 
-/* ==========================================================================
-   5. ESTILOS PERSONALZIADOS COMEÇAM AQUI
-   ========================================================================== */
-
 .menu-container {
-  background-color: #3A75B0;
-  display: flex;
-  padding-top: 10px;
+    min-height: 72px;
+    background-color: #3a75b0;
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
 }
 
 .logo-header {
-  height: 50px;
-  width: auto;
-  margin-left: 10px;
+    width: 90px;
 }
 
-ul {
-  display: flex;
-  gap: 20px;
-  padding: 10px;
+.menu-list {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-left: 35px;
 }
 
 .li-header a {
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  cursor: pointer;
-
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .li-header a:hover {
-  color: orange;
+    color: #f29111;
+}
+
+.menu-mobile {
+    display: none;
 }
 
 .apresentacao_principal {
-  display: flex;
-  background-color: #04536f;
-  justify-content: center;
-  align-content: baseline;
-  padding: 50px;
+    background-color: #04536f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    padding: 55px 40px;
 }
 
 .bloco_texto_principal {
-  width: 500px;
-  margin-right: 40px;
-}
-
-.barra_laranja {
-  width: 35px;
-  height: 5px;
-  background-color: orange;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.titulo, .subtitulo {
-  color: white;
+    width: 500px;
 }
 
 .titulo {
-  font-weight: 300;
+    color: white;
+    font-size: 42px;
+    font-weight: 300;
+}
+
+.barra_laranja {
+    width: 38px;
+    height: 5px;
+    background-color: #f29111;
+    margin: 8px 0 18px 0;
 }
 
 .subtitulo {
-  font-weight: 400;
-  margin-top: 10px;
+    color: white;
+    font-size: 17px;
+    line-height: 1.7;
 }
 
-#footer {
-    background: #ebebeb;
-    display: block;
+.imagem-principal {
+    width: 470px;
+}
+
+footer {
+    background-color: #eeeeee;
+    padding: 24px 35px;
 }
 
 #footer-links {
-
-}
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-  
-  .container {
-    width: 100%;
-    padding: 10px;
-  }
-
-  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
 }
 
-.footer-simples {
-  background-color: #222;
-  padding: 20px;
-  text-align: center;
+#footer-links a {
+    color: #444;
+    font-size: 13px;
 }
 
-.footer-links {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  
-  /* Flexbox alinha na horizontal e quebra linha em telas pequenas */
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap; 
-  gap: 20px; 
-}
-
-.footer-links a {
-  color: #fff;
-  text-decoration: none;
-  font-family: sans-serif;
-}
-
-.footer-links a:hover {
-  text-decoration: underline;
+#footer-links a:hover {
+    text-decoration: underline;
 }
