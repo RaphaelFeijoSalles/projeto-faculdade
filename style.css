@@ -196,6 +196,16 @@ footer {
     margin-right: 0;
     margin-bottom: 20px;
   }
+
+  #footer-links {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+
+  footer {
+    padding: 15px 10px;
+  }
   
   .container {
     width: 100%;
