@@ -182,4 +182,41 @@ footer {
         background-color: white;
         margin: 5px 0;
     }
+
+    .apresentacao_principal {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 35px 22px;
+        gap: 30px;
+    }
+
+    .bloco_texto_principal {
+        width: 100%;
+    }
+
+    .titulo {
+        font-size: 35px;
+    }
+
+    .subtitulo {
+        font-size: 15px;
+    }
+
+    .imagem-principal {
+        width: 100%;
+    }
+
+    .conteudo-java {
+        flex-direction: column;
+        padding: 40px 22px;
+        gap: 40px;
+    }
+
+    .card-java {
+        width: 100%;
+    }
+
+    .card-java h2 {
+        font-size: 23px;
+    }
 }
