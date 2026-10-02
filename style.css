@@ -172,6 +172,17 @@ a {
   .menu-icon {
     display: block;
   }
+
+  .apresentacao_principal {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .bloco_texto_principal {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
   
   .container {
     width: 100%;
