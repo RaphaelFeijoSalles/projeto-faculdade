@@ -195,6 +195,17 @@ a {
   font-weight: 600;
 }
 
+.botao-java {
+  display: inline-block;
+  background-color: #e76f00;
+  color: white !important;
+  padding: 10px 16px;
+}
+
+.botao-java:hover {
+  background-color: #c85f00;
+}
+
 footer {
   background-color: #eeeeee;
   padding: 20px;
