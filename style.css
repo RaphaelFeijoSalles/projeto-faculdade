@@ -236,6 +236,7 @@ footer {
 
     footer {
         padding: 22px;
+        text-align: justify;
     }
 
     #footer-links {
