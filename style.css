@@ -7,6 +7,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: #222;
+    background-color: #f1efed;
 }
 
 img {
@@ -32,7 +33,7 @@ ul {
 }
 
 .logo-header {
-    width: 90px;
+    width: 70px;
 }
 
 .menu-list {
@@ -44,8 +45,9 @@ ul {
 
 .li-header a {
     color: white;
-    font-size: 15px;
+    font-size: 22px;
     font-weight: 600;
+
 }
 
 .li-header a:hover {
@@ -93,20 +95,31 @@ ul {
 }
 
 .conteudo-java {
+    width: 100%;
     max-width: 1050px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 55px 35px;
     display: flex;
+    flex-direction: row;
     gap: 50px;
+    align-items: stretch;
+    justify-content: center;
+    box-sizing: border-box;
 }
 
 .card-java {
-    width: 50%;
+    flex: 1;
+    padding: 30px;
+    width: 50px;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background-color: white;
 }
 
 .card-java h2 {
     color: #333;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 15px;
 }
@@ -119,15 +132,16 @@ ul {
 
 .botao-java {
     display: inline-block;
-    background-color: #e76f00;
+    background-color: #04536f;
     color: white;
     padding: 11px 18px;
     margin-bottom: 18px;
     font-weight: 600;
+    border-radius: 4px;
 }
 
 .botao-java:hover {
-    background-color: #c85f00;
+    background-color: #003142;
 }
 
 .link-card {
@@ -141,7 +155,7 @@ ul {
 }
 
 footer {
-    background-color: #eeeeee;
+    background-color: #ebebeb;
     padding: 24px 35px;
 }
 
