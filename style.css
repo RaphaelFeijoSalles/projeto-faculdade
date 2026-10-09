@@ -34,6 +34,8 @@ ul {
 
 .logo-header {
     width: 64px;
+    position: relative;
+    top: -7px;
 }
 
 .menu-list {
@@ -56,6 +58,8 @@ ul {
 
 .menu-mobile {
     display: none;
+    position: relative;
+
 }
 
 .apresentacao_principal {
@@ -179,9 +183,7 @@ footer {
 @media (max-width: 800px) {
     .menu-container {
         justify-content: space-between;
-        padding: 11px 15px;
-        padding-top: 4px;
-        padding-bottom: 17px;
+        padding: 10px 15px 11px 15px;
         min-height: auto;
     }
 
@@ -193,11 +195,14 @@ footer {
         width: 30px;
         display: block;
         padding-right: 10px;
+        position: relative;
+        right: 3px;
+        padding-bottom: 10px;
     }
 
     .menu-mobile span {
         display: block;
-        height: 3px;
+        height: 2px;
         background-color: white;
         margin: 5px 0;
     }
